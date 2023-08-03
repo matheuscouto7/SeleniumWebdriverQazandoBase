@@ -19,10 +19,9 @@ public class RunCucumber extends RunBase{
         getDriver().quit();
     }
 
+    //Para gerar os novos reports bem feitos, precisa rodar esses comandos pelo terminal
+    // mvn test -Dtest=RunCucumber -Dbrowser=chrome
+    //mvn cluecumber-report:reporting
+
 }
 
-/**
- * para gerar os reports bem feitos precisa rodar pelo terminal tudo
- *
- * mvn test -Dtest=RunCucumber -Dbrowser=chrome cluecumber-report:reporting
- */

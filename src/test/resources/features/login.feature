@@ -28,5 +28,5 @@
         | user                | password     | message            | name            |
         | qualquercoisa       | 123456       | E-mail inválido.   | E-mail inválido |
         |                     | 123456       | E-mail inválido.   | E-mail Vazio    |
-        | eduardo@qazando.com | 0014         | Senha inválida.    | Senha invalida  |
+        | eduardo@qazando.com | 000          | Senha inválida.    | Senha invalida  |
         | eduardo@qazando.com |              | Senha inválida.    | Senha vazia     |
