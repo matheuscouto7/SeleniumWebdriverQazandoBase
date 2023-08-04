@@ -23,7 +23,7 @@ jobs:
         uses: browser-actions/setup-chrome@v1
 
       - name: Instalar o chrome driver
-        uses: nanasess/setup-chromedriver@v1
+          - uses: nanasess/setup-chromedriver@v2
       - run: |
           export DISPLAY=:99
           chromedriver --url-base=/wd/hub &
@@ -33,19 +33,3 @@ jobs:
         run: mvn test -Dtest=RunCucumber -Dbrowser=chrome-ci
 
 
-
-
-
-
-
-
-
-
-
-
-# clonar meu projeto
-# instalar o java
-# instalar o chrome
-# instalar o chrome driver
-# executar o testes
-# gerar o relatorio
