@@ -19,7 +19,7 @@ jobs:
          distribution: 'adopt'
          cache: 'maven'
 
-      - name: Instalar o chrome
+      - name: Instalar o chrome na maquina
         uses: browser-actions/setup-chrome@latest
 
       - name: Instalar o chrome driver
