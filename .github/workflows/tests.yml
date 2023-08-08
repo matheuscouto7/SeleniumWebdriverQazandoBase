@@ -23,7 +23,8 @@ jobs:
         uses: browser-actions/setup-chrome@latest
 
       - name: Instalar o chrome driver
-        uses: nanasess/setup-chromedriver@v1
+        uses: actions/checkout@v2
+        uses: nanasess/setup-chromedriver@v2
       - run: |
           export DISPLAY=:99
           chromedriver --url-base=/wd/hub &
